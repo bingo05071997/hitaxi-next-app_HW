@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Harry Peterson",
+    "avatarUrl": "/avatars/tanner-stafford.png",
+    "messages": [
+      {
+        "type": "outgoing",
+        "content": "Hi Harry, good morning 😊",
+        "time": "10:00"
+      },
+      {
+        "type": "outgoing",
+        "content": "I have booked your taxi now. Can you pick me up right away? 🙄",
+        "time": "10:00"
+      },
+      {
+        "type": "incoming",
+        "content": "Yes, I'm currently rushing to your location.",
+        "time": "10:00"
+      },
+      {
+        "type": "incoming",
+        "content": "Can you take a photo of the location around you? So that I can easily find you 😅😆",
+        "time": "10:00"
+      }
+    ],
+    "lastMessageTime": "13:29",
+    "unreadCount": 2
+  },
+  {
+    "name": "Krishna Barbe",
+    "avatarUrl": "/avatars/sanjuanita-ordonez.png",
+    "messages": [
+      {
+        "type": "incoming",
+        "content": "I just completed it 😂😂",
+        "time": "10:48"
+      }
+    ],
+    "lastMessageTime": "10:48",
+    "unreadCount": 3
+  },
+  {
+    "name": "Elmer Laverty",
+    "avatarUrl": "/avatars/annabel-rohan.png",
+    "messages": [
+      {
+        "type": "incoming",
+        "content": "Omg, this is amazing 🔥🔥🔥",
+        "time": "09:25"
+      }
+    ],
+    "lastMessageTime": "09:25",
+    "unreadCount": 1
+  },
+  {
+    "name": "Rochel Foose",
+    "avatarUrl": "/avatars/daniel-austin.png",
+    "messages": [
+      {
+        "type": "incoming",
+        "content": "Wow, this is really fast 😲",
+        "time": "Yesterday"
+      }
+    ],
+    "lastMessageTime": "Yesterday",
+    "unreadCount": 2
+  },
+  {
+    "name": "Hannah Burress",
+    "avatarUrl": "/avatars/augustina-midgett.png",
+    "messages": [
+      {
+        "type": "incoming",
+        "content": "Just ideas for next time 😊",
+        "time": "Dec 20, 2024"
+      }
+    ],
+    "lastMessageTime": "Dec 20, 2024",
+    "unreadCount": 0
+  },
+  {
+    "name": "Tynisha Obey",
+    "avatarUrl": "/avatars/edgar-torrey.png",
+    "messages": [
+      {
+        "type": "incoming",
+        "content": "I’m on the side of the road 😳",
+        "time": "Dec 20, 2024"
+      }
+    ],
+    "lastMessageTime": "Dec 20, 2024",
+    "unreadCount": 0
+  },
+  {
+    "name": "Tyra Dhillon",
+    "avatarUrl": "/avatars/rayford-chenail.png",
+    "messages": [
+      {
+        "type": "incoming",
+        "content": "Perfect! 💯💯💯",
+        "time": "Dec 18, 2024"
+      }
+    ],
+    "lastMessageTime": "Dec 18, 2024",
+    "unreadCount": 0
+  },
+  {
+    "name": "Clinton Mcclure",
+    "avatarUrl": "/avatars/francene-vandyn.png",
+    "messages": [
+      {
+        "type": "incoming",
+        "content": "Perfect! 💯💯💯",
+        "time": "Dec 18, 2024"
+      }
+    ],
+    "lastMessageTime": "Dec 20, 2024",
+    "unreadCount": 0
+  }
+]

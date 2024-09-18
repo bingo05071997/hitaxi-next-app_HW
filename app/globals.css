@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: #1F222A;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  @apply font-urbanist;
+  @apply min-h-screen flex flex-col items-center justify-center bg-white dark:bg-dark1 text-black dark:text-white;
+}
+
+h1 {
+  @apply text-4xl sm:text-5xl font-bold;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .calendar-invert {
+    &::-webkit-calendar-picker-indicator {
+      @apply dark:invert;
+    }
+  }
+  .primary-btn {
+    @apply bg-primary hover:bg-yellow-700 rounded-full text-black font-semibold py-4 px-8 justify-center font-urbanist text-base text-center w-full shadow-primary;
+  }
+  .default-btn {
+    @apply bg-white hover:bg-slate-200 dark:bg-[#1F222A] dark:hover:bg-slate-900 w-full border-gray-200 dark:border-[#35383F] border-[1px] rounded-2xl font-semibold py-4 px-8 flex flex-row justify-center items-center font-urbanist text-base text-center;
+  }
+}
+/*
+  Animate spin
+*/
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+/* Hide scrollbar but still allow scrolling */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

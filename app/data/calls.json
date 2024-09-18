@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "name": "Tanner Stafford",
+      "type": "Incoming",
+      "date": "Dec 19, 2024",
+      "avatarUrl": "/avatars/tanner-stafford.png",
+      "status": "blue"
+    },
+    {
+      "id": 2,
+      "name": "Sanjuanita Ordonez",
+      "type": "Outgoing",
+      "date": "Dec 17, 2024",
+      "avatarUrl": "/avatars/sanjuanita-ordonez.png",
+      "status": "green"
+    },
+    {
+      "id": 3,
+      "name": "Annabel Rohan",
+      "type": "Missed",
+      "date": "Nov 28, 2024",
+      "avatarUrl": "/avatars/annabel-rohan.png",
+      "status": "red"
+    },
+    {
+      "id": 4,
+      "name": "Daniel Austin",
+      "type": "Outgoing",
+      "date": "Nov 24, 2024",
+      "avatarUrl": "/avatars/daniel-austin.png",
+      "status": "green"
+    },
+    {
+      "id": 5,
+      "name": "Augustina Midgett",
+      "type": "Incoming",
+      "date": "Nov 14, 2024",
+      "avatarUrl": "/avatars/augustina-midgett.png",
+      "status": "blue"
+    },
+    {
+      "id": 6,
+      "name": "Edgar Torrey",
+      "type": "Outgoing",
+      "date": "Oct 30, 2024",
+      "avatarUrl": "/avatars/edgar-torrey.png",
+      "status": "green"
+    },
+    {
+      "id": 7,
+      "name": "Rayford Chenail",
+      "type": "Incoming",
+      "date": "Oct 29, 2024",
+      "avatarUrl": "/avatars/rayford-chenail.png",
+      "status": "blue"
+    },
+    {
+      "id": 8,
+      "name": "Francene Vandyn",
+      "type": "Missed",
+      "date": "Oct 25, 2024",
+      "avatarUrl": "/avatars/francene-vandyn.png",
+      "status": "red"
+    }
+  ]
+  
