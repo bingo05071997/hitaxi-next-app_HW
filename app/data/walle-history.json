@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Tanner Stafford",
+    "type": "taxi",
+    "date": "Dec 19, 2024",
+    "time": "10:00 AM",
+    "avatarUrl": "/avatars/tanner-stafford.png",
+    "amount": 14
+  },
+  {
+    "id": 2,
+    "name": "Top Up Wallet",
+    "type": "topup",
+    "date": "Dec 19, 2024",
+    "time": "10:00 AM",
+    "avatarUrl": "/svg/wallet-icon.svg",
+    "amount": 80
+  },
+  {
+    "id": 3,
+    "name": "Sarah Wilson",
+    "type": "taxi",
+    "date": "Dec 19, 2024",
+    "time": "10:00 AM",
+    "avatarUrl": "/avatars/sanjuanita-ordonez.png",
+    "amount": 26
+  },
+  {
+    "id": 4,
+    "name": "Benny Spanbauer",
+    "type": "taxi",
+    "date": "Dec 19, 2024",
+    "time": "10:00 AM",
+    "avatarUrl": "/avatars/annabel-rohan.png",
+    "amount": 24
+  },
+  {
+    "id": 5,
+    "name": "Top Up Wallet",
+    "type": "topup",
+    "date": "Dec 19, 2024",
+    "time": "10:00 AM",
+    "avatarUrl": "/svg/wallet-icon.svg",
+    "amount": 100
+  },
+  {
+    "id": 6,
+    "name": "Sarah Wilson",
+    "type": "taxi",
+    "date": "Dec 19, 2024",
+    "time": "10:00 AM",
+    "avatarUrl": "/avatars/sanjuanita-ordonez.png",
+    "amount": 26
+  }
+]

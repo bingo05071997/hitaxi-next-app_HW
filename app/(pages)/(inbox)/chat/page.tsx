@@ -1,6 +1,5 @@
 "use client";
 
-<<<<<<< HEAD
 import Link from "next/link";
 import ChatItem from "@/app/components/items/ChatItem";
 import chatData from "@/app/data/chats.json";
@@ -13,11 +12,10 @@ export default function Chat(): JSX.Element {
     
     return (
         <div className="max-h-full overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-400 scrollbar-hide">
-            <Navbar title="Inbox" hasChildNode={false} />
+            <Navbar title="Inbox" hasChildNode={false}  searchEnable={true} moreOptionEnable={true}/>
 
             <HorizontalBar initialRoute={'chat'}/>
                 {chatData.map((chat, index) => {
-                    const lastMessage = chat.messages[chat.messages.length - 1];
                     return (
                         <Link 
                             key={index} href="/chat/chatdetail">
@@ -35,35 +33,6 @@ export default function Chat(): JSX.Element {
                 className="duration-500 ease-in-out cursor-pointer absolute bottom-1/4 right-10"
             />
         <BottomBar selectedButton="inbox"/>
-=======
-import { useState } from "react";
-import { useRouter } from "next/router";
-import ChatItem from "@/app/components/ChatItem";
-import chatData from "@/app/data/chats.json";
-import AddButton from "@/public/svg/add-button.svg";
-
-export default function Chat(): JSX.Element {
-
-   
-    return (
-        <div className="max-h-[750px] overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-400 scrollbar-hide">
-            {chatData.map((chat, index) => {
-                const lastMessage = chat.messages[chat.messages.length - 1];
-                return (
-                    <ChatItem
-                        key={index}
-                        name={chat.name}
-                        message={chat.messages.length > 0 ? chat.messages[chat.messages.length - 1].content : 'No messages yet'}
-                        avatarUrl={chat.avatarUrl}
-                        unreadCount={chat.unreadCount}
-                        lastMessageTime={chat.lastMessageTime}
-                    />
-            );
-        })}
-            <AddButton
-                className="duration-500 ease-in-out cursor-pointer fixed bottom-1/4 right-[720px]"
-            />
->>>>>>> 3b5e1e189295e6a16704352ba2e641ab79c42871
         </div>
     );
 

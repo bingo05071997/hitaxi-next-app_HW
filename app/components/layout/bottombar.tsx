@@ -21,8 +21,8 @@ type Props = {
 export default function BottomBar({ selectedButton }: Props): JSX.Element {
   const router = useRouter();
   return (
-    <div className="absolute bottom-0 items-center p-5 w-full right-1">
-      <div className="flex flex-row mb-5 mt-5">
+    <div className="absolute bottom-0 items-center pl-2 w-full right-1 bg-[#181A20]">
+      <div className="flex flex-row mb-5">
         <div className="flex basis-1/5 items-center justify-center p-2">
           <button
             type="button"

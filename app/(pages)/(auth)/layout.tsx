@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import Navbar from "@/app/components/layout/navbar";
-=======
-import Navbar from "@/app/components/navbar";
->>>>>>> 3b5e1e189295e6a16704352ba2e641ab79c42871
 
 export default function AuthLayout({
   children,
@@ -11,7 +7,7 @@ export default function AuthLayout({
 }>): JSX.Element {
   return (
     <div className="relative p-6 w-full flex flex-col flex-grow items-start justify-start">
-      <Navbar />
+      <Navbar hasChildNode={true}/>
       <div className="flex-grow w-full">
         {children}
       </div>

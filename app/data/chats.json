@@ -1,9 +1,6 @@
 [
   {
-<<<<<<< HEAD
     "id": 1,
-=======
->>>>>>> 3b5e1e189295e6a16704352ba2e641ab79c42871
     "name": "Harry Peterson",
     "avatarUrl": "/avatars/tanner-stafford.png",
     "messages": [
@@ -32,10 +29,7 @@
     "unreadCount": 2
   },
   {
-<<<<<<< HEAD
     "id": 2,
-=======
->>>>>>> 3b5e1e189295e6a16704352ba2e641ab79c42871
     "name": "Krishna Barbe",
     "avatarUrl": "/avatars/sanjuanita-ordonez.png",
     "messages": [
@@ -49,10 +43,7 @@
     "unreadCount": 3
   },
   {
-<<<<<<< HEAD
     "id": 3,
-=======
->>>>>>> 3b5e1e189295e6a16704352ba2e641ab79c42871
     "name": "Elmer Laverty",
     "avatarUrl": "/avatars/annabel-rohan.png",
     "messages": [
@@ -66,10 +57,7 @@
     "unreadCount": 1
   },
   {
-<<<<<<< HEAD
     "id": 4,
-=======
->>>>>>> 3b5e1e189295e6a16704352ba2e641ab79c42871
     "name": "Rochel Foose",
     "avatarUrl": "/avatars/daniel-austin.png",
     "messages": [
@@ -83,17 +71,13 @@
     "unreadCount": 2
   },
   {
-<<<<<<< HEAD
     "id": 5,
-=======
->>>>>>> 3b5e1e189295e6a16704352ba2e641ab79c42871
     "name": "Hannah Burress",
     "avatarUrl": "/avatars/augustina-midgett.png",
     "messages": [
       {
         "type": "incoming",
         "content": "Just ideas for next time 😊",
-<<<<<<< HEAD
         "time": "Dec 20,2024"
       }
     ],
@@ -102,22 +86,12 @@
   },
   {
     "id": 6,
-=======
-        "time": "Dec 20, 2024"
-      }
-    ],
-    "lastMessageTime": "Dec 20, 2024",
-    "unreadCount": 0
-  },
-  {
->>>>>>> 3b5e1e189295e6a16704352ba2e641ab79c42871
     "name": "Tynisha Obey",
     "avatarUrl": "/avatars/edgar-torrey.png",
     "messages": [
       {
         "type": "incoming",
         "content": "I’m on the side of the road 😳",
-<<<<<<< HEAD
         "time": "Dec 20,2024"
       }
     ],
@@ -126,22 +100,12 @@
   },
   {
     "id": 7,
-=======
-        "time": "Dec 20, 2024"
-      }
-    ],
-    "lastMessageTime": "Dec 20, 2024",
-    "unreadCount": 0
-  },
-  {
->>>>>>> 3b5e1e189295e6a16704352ba2e641ab79c42871
     "name": "Tyra Dhillon",
     "avatarUrl": "/avatars/rayford-chenail.png",
     "messages": [
       {
         "type": "incoming",
         "content": "Perfect! 💯💯💯",
-<<<<<<< HEAD
         "time": "Dec 18,2024"
       }
     ],
@@ -150,32 +114,16 @@
   },
   {
     "id": 8,
-=======
-        "time": "Dec 18, 2024"
-      }
-    ],
-    "lastMessageTime": "Dec 18, 2024",
-    "unreadCount": 0
-  },
-  {
->>>>>>> 3b5e1e189295e6a16704352ba2e641ab79c42871
     "name": "Clinton Mcclure",
     "avatarUrl": "/avatars/francene-vandyn.png",
     "messages": [
       {
         "type": "incoming",
         "content": "Perfect! 💯💯💯",
-<<<<<<< HEAD
         "time": "Dec 18,2024"
       }
     ],
     "lastMessageTime": "Dec 20,2024",
-=======
-        "time": "Dec 18, 2024"
-      }
-    ],
-    "lastMessageTime": "Dec 20, 2024",
->>>>>>> 3b5e1e189295e6a16704352ba2e641ab79c42871
     "unreadCount": 0
   }
 ]

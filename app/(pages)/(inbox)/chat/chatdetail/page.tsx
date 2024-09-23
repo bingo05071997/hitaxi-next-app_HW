@@ -43,7 +43,7 @@ export default function ChatDetail(): JSX.Element {
   );
   return (
     <div>
-      <Navbar title="Inbox" hasChildNode={true} />
+      <Navbar title="Inbox" hasChildNode={true} searchEnable={false} moreOptionEnable={true} callEnable={true}/>
       <div className="flex flex-col">
         <div className="flex w-auto justify-center">
           <TopStatusBar status="Today" />

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Daniel Austin",
+        "receipts" : [
+            { "code": "273628" },
+            { "code": "837279" }
+        ],
+        "avatarUrl": "/avatars/tanner-stafford.png",
+        "starRate": 4.8,
+        "car": "Mercedes-Benz E-CI",
+        "carNumber": "HSW 4736 XK",
+        "amount": 20.00,
+        "promo": 6.00,
+        "total": 14.00,
+        "paymentMethod": "My E-Wallet",
+        "date": "Dec 20, 2024 | 10:00:27 AM",
+        "transactionId": "SK7263727399",
+        "status": "Paid",
+        "category": "expense"
+    }
+]

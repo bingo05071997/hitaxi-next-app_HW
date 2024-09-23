@@ -12,7 +12,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-rgb: #1F222A;
+    --background-rgb: #1f222a;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
@@ -57,10 +57,6 @@ h1 {
 
 .animate-spin {
   animation: spin 1s linear infinite;
-}
-/* Hide scrollbar but still allow scrolling */
-.scrollbar-hide::-webkit-scrollbar {
-  display: none; /* Chrome, Safari and Opera */
 }
 
 .scrollbar-hide {

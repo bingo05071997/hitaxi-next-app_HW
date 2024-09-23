@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "HiTaxi",
-  description: "Your friendly and reliable daily taxi service for seamless, safe, and affordable rides.",
+  title: 'HiTaxi',
+  description: 'Your friendly and reliable daily taxi service for seamless, safe, and affordable rides.',
 };
 
 export default function RootLayout({
@@ -19,9 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={className}>
-        <div className="max-w-screen-sm flex-grow flex flex-col w-full">
-          {children}
-        </div>
+        <div className="max-w-screen-sm flex-grow flex flex-col w-full">{children}</div>
       </body>
     </html>
   );
